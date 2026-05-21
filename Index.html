@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Portfolio Website</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+
+        body{
+            font-family: Arial;
+            margin: 0;
+            background-color: #f2f2f2;
+        }
+
+        header{
+            background-color: navy;
+            color: white;
+            padding: 20px;
+        }
+
+        .logo{
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        nav{
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        .video-section{
+            text-align: center;
+            padding: 20px;
+        }
+
+        .about-section{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 30px;
+            background-color: white;
+        }
+
+        .about-text{
+            width: 50%;
+        }
+
+        .about-image img{
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+        }
+
+        footer{
+            background-color: lightgray;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .map{
+            border: 1px solid black;
+            padding: 20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <span class="logo">NK</span>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+
+    </header>
+
+    <!-- VIDEO SECTION -->
+
+    <div class="video-section">
+
+        <video width="700" controls>
+            <source src="videos/video.mp4" type="video/mp4">
+        </video>
+
+    </div>
+
+    <!-- ABOUT SECTION -->
+
+    <div class="about-section">
+
+        <div class="about-text">
+
+            <h1>Nsovo Kubayi</h1>
+
+            <p>
+                My name is Nsovo Kubayi. I am a Computer science graduate learning who loves
+                web development and creating websites using HTML and CSS.
+                I enjoy technology, running and learning new computer skills.
+            </p>
+
+            <p>
+                I want to become a successful software developer in the future.
+            </p>
+
+        </div>
+
+        <div class="about-image">
+
+            <img src="images/myphoto.jpg" alt="My Photo">
+
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div>
+            <h3>Address</h3>
+            <p>Giyani, Limpopo</p>
+            <p>Phone: 071 246 7803</p>
+        </div>
+
+        <div>
+            <h3>Social Media</h3>
+
+            <p>TikTok: @nsovo05_20</p>
+        </div>
+
+        <div class="map">
+            <p>Google Map Here</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
