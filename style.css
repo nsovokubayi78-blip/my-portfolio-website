@@ -8,7 +8,7 @@
 /* Body */
 body{
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #2a2929;
 }
 
 /* Navigation */
@@ -17,7 +17,7 @@ body{
     justify-content: space-between;
     align-items: center;
 
-    background-color: #222;
+    background-color: #ea0707;
     padding: 20px;
 }
 
@@ -35,7 +35,7 @@ body{
 }
 
 .nav-links a{
-    color: white;
+    color: rgb(200, 40, 134);
     text-decoration: none;
     transition: 0.3s;
 }
@@ -71,7 +71,7 @@ body{
 /* Button */
 .btn{
     background-color: orange;
-    color: white;
+    color: rgb(235, 205, 205);
 
     padding: 12px 20px;
     text-decoration: none;
@@ -81,7 +81,7 @@ body{
 
 /* Button Hover */
 .btn:hover{
-    background-color: black;
+    background-color: rgb(56, 78, 136);
 }
 
 /* Image */
@@ -128,8 +128,8 @@ textarea{
 }
 
 button{
-    background-color: orange;
-    color: white;
+    background-color: rgb(190, 40, 6);
+    color: rgb(9, 142, 35);
 
     border: none;
     padding: 12px;
@@ -137,13 +137,13 @@ button{
 }
 
 button:hover{
-    background-color: black;
+    background-color: rgb(113, 74, 74);
 }
 
 /* Footer */
 footer{
-    background-color: #222;
-    color: white;
+    background-color: #403f3f;
+    color: rgb(246, 126, 126);
 
     text-align: center;
     padding: 20px;
