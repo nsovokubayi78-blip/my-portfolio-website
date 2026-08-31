@@ -1,0 +1,41 @@
+//  declare a fuction
+
+fuction add(x, y){
+       return x + y
+}
+
+// call the fuction
+add() // function being invoiced
+console.log(add(5, 3))
+
+
+// using list (array or object) write function that will getthe students marks
+// if a student passed or failed
+
+
+let student = [
+    {name:'zana',mark:80},
+    {name:'mbali',mark:50},
+    {name:'san',mark:75},
+    {name:'sabelo',mark:20},
+]
+
+// declare
+fuction studentsResults (studentslist){
+    for(let i =0; < studentslist.length; i++){
+
+         const student = studentslist[1]
+
+         if(student.mark >= 75)
+           console.log(student.nameb+ '- passed with distinction')
+    }
+    else if (student.mark < 75 && student.mark >= 50)
+    {
+        console.log(student.name + )
+    }
+}
+
+
+
+
+
